@@ -1,1 +1,15 @@
-{m: "show"}
+{
+  installation: @rejection.installation,
+  case: @rejection.case,
+  category: @rejection.category,
+  sub_category: @rejection.sub_category,
+  product: @rejection.product,
+  office: @rejection.office,
+  state: @rejection.state,
+  utility: @rejection.utility,
+  ahj: @rejection.ahj,
+  note: @rejection.note,
+  level_reviewed: @rejection.level_reviewed,
+  rejection_source: @rejection.rejection_source,
+  corrections_uploaded: @rejection.corrections_uploaded
+}

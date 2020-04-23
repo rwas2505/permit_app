@@ -10,22 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_23_001057) do
+ActiveRecord::Schema.define(version: 2020_04_23_012709) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "cases", force: :cascade do |t|
-    t.integer "installation_id"
-    t.integer "user_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "installations", force: :cascade do |t|
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
 
   create_table "rejections", force: :cascade do |t|
     t.string "category"
@@ -36,8 +24,8 @@ ActiveRecord::Schema.define(version: 2020_04_23_001057) do
     t.string "utility"
     t.string "ahj"
     t.string "note"
-    t.integer "case_id"
-    t.integer "installation_id"
+    t.integer "case"
+    t.integer "installation"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "level_reviewed"
