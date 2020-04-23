@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_11_013900) do
+ActiveRecord::Schema.define(version: 2020_04_23_001057) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -30,19 +30,19 @@ ActiveRecord::Schema.define(version: 2020_04_11_013900) do
   create_table "rejections", force: :cascade do |t|
     t.string "category"
     t.string "sub_category"
-    t.string "sub_queue_name"
     t.string "product"
     t.string "office"
     t.string "state"
     t.string "utility"
     t.string "ahj"
-    t.boolean "design_error"
-    t.boolean "new_ahj_requirement"
     t.string "note"
     t.integer "case_id"
     t.integer "installation_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "level_reviewed"
+    t.string "rejection_source"
+    t.boolean "corrections_uploaded"
   end
 
   create_table "users", force: :cascade do |t|
