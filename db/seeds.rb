@@ -13,6 +13,9 @@ ahj_csv_text = File.read(Rails.root.join('lib', 'seeds', 'all_ahjs.csv'))
 ahj_csv = CSV.parse(ahj_csv_text, :headers => true, :encoding => 'ISO-8859-1')
 office_csv_text = File.read(Rails.root.join('lib', 'seeds', 'all_offices.csv'))
 office_csv = CSV.parse(office_csv_text, :headers => true, :encoding => 'ISO-8859-1')
+category_csv_text = File.read(Rails.root.join('lib', 'seeds', 'categories.csv'))
+category_csv = CSV.parse(category_csv_text, :headers => true, :encoding => 'ISO-8859-1')
+
 
 # make each row a hash element in a new array for the ahjs
 ahj_list = []
@@ -47,6 +50,32 @@ local_offices = office_list.select{|office| state_array.include?(office["Locatio
 # end
 # verification = local_offices.uniq{|office| office["LocationCode"][0..1]}
 # p verification
+
+
+#create category and sub category list
+category_list = []
+category_csv.each do |row|
+  category = row.to_hash
+  category_list << category
+end
+
+
+
+#TODO
+#generate seed data based on lists populated in this file
+#   -ahj_sample_list, local_offices, category_list
+# category (category_list)
+# sub_category (category_list)
+# product (to do)
+# office  (local_offices)
+# state   (ahj_sample_list i think)
+# ahj     (ahj_sample_list)
+# note    ("")
+# case    (to do generate random number)
+# installation (generate random number)
+# level_reviewed (to do)
+# rejection_source (to do)
+# corrections_uploaded (true or false, generate randomly)
 
 
 

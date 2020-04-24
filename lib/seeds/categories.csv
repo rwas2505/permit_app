@@ -1,0 +1,314 @@
+category,sub_category
+Design Electrical,(DC Powerwall) Relocating Loads
+Design Electrical,100% Rule for Center Fed Buss Panels
+Design Electrical,ABB RSD Prohibited
+Design Electrical,AC Disconnect at Inverter Required When Not LoS of Tie-In
+Design Electrical,AC Disconnect at Main Required
+Design Electrical,AC Disconnect Configuration
+Design Electrical,AC Disconnect Configuration (Utility)
+Design Electrical,AC Disconnect Location
+Design Electrical,AC Disconnect Required
+Design Electrical,AC Disconnect Required (OLD)
+Design Electrical,AC Disconnect Required (Utility)
+Design Electrical,AC Disconnect Type Required
+Design Electrical,AC Neutral Upsize
+Design Electrical,Add/Swap BOM Part: TLD
+Design Electrical,BOS Requirement
+Design Electrical,California Electric Code (CEC)
+Design Electrical,Celestica RSD Prohibited
+Design Electrical,Centerfed Tie-In
+Design Electrical,Combine Strings at the Inverter
+Design Electrical,Combiner Box
+Design Electrical,Conductors
+Design Electrical,Conduit
+Design Electrical,Connection method for all electrical equipment required
+Design Electrical,DC Conductor Color
+Design Electrical,DC Disconnect at Roof Required
+Design Electrical,DC Disconnect Required
+Design Electrical,DC EGC: #6 SBC Required on Roof
+Design Electrical,DC EGC: Minimum Size (AWG)
+Design Electrical,Dedicated PV Meter Required
+Design Electrical,Delta RSD Office Enabled
+Design Electrical,Delta RSD Prohibited
+Design Electrical,Derate
+Design Electrical,Distribution Panels
+Design Electrical,Downsizing Main Breaker
+Design Electrical,Electrical Calculations
+Design Electrical,Electrical Calculations Manual
+Design Electrical,Electrical Engineer Stamp Required
+Design Electrical,Electrical Equipment Setback
+Design Electrical,Electrical Panel Number Required
+Design Electrical,Electrical Panel Prohibited
+Design Electrical,Electrical Panel Requirement
+Design Electrical,Express Electrical Design Requirements
+Design Electrical,Fault Current
+Design Electrical,Fireman Switch Required
+Design Electrical,Full Electrical Design Requirements
+Design Electrical,Fuse all Strings
+Design Electrical,High Efficiency Modules Enabled
+Design Electrical,Inverter Location
+Design Electrical,Line Side Connection Prohibited
+Design Electrical,Load Side Connection Prohibited
+Design Electrical,Load Side Tap Prohibited
+Design Electrical,Main Panel Upgrade (MPU)
+Design Electrical,Mechanical Equipment Setback
+Design Electrical,Meter Access Required
+Design Electrical,Meter Socket Adapter Preferred
+Design Electrical,Meter Socket Required
+Design Electrical,Minimum GEC Size (AWG)
+Design Electrical,Module Level MPPT Required
+Design Electrical,National Electric Code (NEC)
+Design Electrical,Non Standard Grounding Requirement
+Design Electrical,Non-Standard Conductor Temperature Rating
+Design Electrical,Non-Standard Grounding Requirement
+Design Electrical,Non-Standard Supply Side Tap in Finished Spaces
+Design Electrical,One-line Diagram Required
+Design Electrical,PCS Conductor Limiting for 120% Rule
+Design Electrical,PowerBlaster Prohibited
+Design Electrical,Quad Breakers Not Allowed
+Design Electrical,Revenue Grade Monitoring Required
+Design Electrical,Separate GEC Required
+Design Electrical,Single Point of Interconnection
+Design Electrical,SolarEdge String Optimizer Enabled
+Design Electrical,Supply/Line Side Tap Prohibited
+Design Electrical,Swap PV Meter and AC Disconnect at Main
+Design Electrical,Swap PV Meter and AC Disconnect at Main delete
+Design Electrical,Tie-In Prohibited
+Design Electrical,Tie-in Requirements
+Design Electrical,Trenching
+Design Electrical,Two (2) Ground Rods Required
+Design Electrical,WEEBs Prohibited
+Design Layout,Black Frame Modules Required
+Design Layout,Design with Advantage Module
+Design Layout,Double Flashing Required
+Design Layout,Drywall Cut Requirement
+Design Layout,Duct Replacement Design
+Design Layout,Equipment Location
+Design Layout,Existing Systems
+Design Layout,Fire Setbacks Enforced
+Design Layout,Furnace Design
+Design Layout,Gas Line Design
+Design Layout,Layout Consideration
+Design Layout,Max Standoff Point Load (LB)
+Design Layout,Max Standoff Tributary (SF)
+Design Layout,Max Standoff X-Spacing (IN)
+Design Layout,Max Standoff Y-Spacing (IN)
+Design Layout,No Panels On Front If Possible
+Design Layout,Panel Height Restriction
+Design Layout,Pipe Racks
+Design Layout,Portrait Layout Prohibited Above Given Pitch
+Design Layout,Roof Mounts
+Design Layout,Rooftop Mechanical Equipment Setback (Inches)
+Design Layout,Setback from property line
+Design Layout,Setbacks From Property Line
+Design Layout,Staggered Penetrations Required
+Design Layout,Studor Vents
+Design Layout,Vent Relocation Prohibited
+Design Layout,Vent Spanning
+Design Layout,Vents - Comp
+Design Layout,Vents - Tile
+Design Layout,ZS Comp V4 Prohibited
+Design Layout,ZS Comp V4 Prohibited old
+Design Planset Edits,"4,8 kW Master Electrical Planset Requirements"
+Design Planset Edits,Accessibility Compliance
+Design Planset Edits,Accessibility plan and details required
+Design Planset Edits,Add Array Square Footage and % Roof Covered to Site Plan
+Design Planset Edits,Add/Remove Pages
+Design Planset Edits,Additional Property Information Required on Cover
+Design Planset Edits,Air Conditioner Planset
+Design Planset Edits,Approval from Local Fire Authority Required
+Design Planset Edits,Battery Planset Addition Required
+Design Planset Edits,Building Area and Construction Type Designation
+Design Planset Edits,Building Elevation Required
+Design Planset Edits,Canopy Mounts
+Design Planset Edits,Conditional Add Note
+Design Planset Edits,Conduit Must be Shown on Plans
+Design Planset Edits,Edit/Add Notes: Cover Page
+Design Planset Edits,Edit/Add Notes: Placard Page
+Design Planset Edits,Edit/Add Notes: Site Plan
+Design Planset Edits,Edit/Add Notes: Structural/Uplift Calcs
+Design Planset Edits,Edit/Add Notes: TLD
+Design Planset Edits,Edit/Swap Electrical Component Blocks: TLD
+Design Planset Edits,Electrical Equipment Elevation Required
+Design Planset Edits,EV Planset Addition Required
+Design Planset Edits,Existing System Show On Plans
+Design Planset Edits,Extend LBW on Side Section
+Design Planset Edits,Fire hydrants & Fire access roads must be located
+Design Planset Edits,Flood Zone
+Design Planset Edits,Furnace Planset
+Design Planset Edits,General Planset Requirement
+Design Planset Edits,Generator Show On Plans
+Design Planset Edits,Glare Study
+Design Planset Edits,Heat Pump Planset
+Design Planset Edits,Increase Font size on Line Drawing
+Design Planset Edits,Labels Page
+Design Planset Edits,Line of Sight Drawing Required
+Design Planset Edits,Load Bearing Wall (LBW) Layout Required
+Design Planset Edits,NEC 2017 Site Plan Placard Required
+Design Planset Edits,Parcel Info Required in Planset
+Design Planset Edits,Permit Form Required
+Design Planset Edits,Photos Add To Plans
+Design Planset Edits,Photoshop Rendering
+Design Planset Edits,Plant Location Map Needed
+Design Planset Edits,Pool Pump Planset
+Design Planset Edits,Print Plans in Grayscale
+Design Planset Edits,Property Information
+Design Planset Edits,Property Plan Required
+Design Planset Edits,Property Plan- Include Extra Info
+Design Planset Edits,Redesign for Permitting
+Design Planset Edits,Reduced Side Views Accepted
+Design Planset Edits,Separate Pages
+Design Planset Edits,Show All Structures Located on Property
+Design Planset Edits,Show Ladder Access for Fire Setbacks
+Design Planset Edits,Show Standoff Locations on Site Plan
+Design Planset Edits,Show Structural Side Sections
+Design Planset Edits,Site Plan Placard Required
+Design Planset Edits,SL.PDF
+Design Planset Edits,Solar Thermal Planset
+Design Planset Edits,Storage Only: Simplified Planset
+Design Planset Edits,Storage Planset Required Edits
+Design Planset Edits,Water Heater Planset
+Design Resources,Attic Insulation Design
+Design Resources,Best Practices
+Design Resources,California Building Code (CBC)
+Design Resources,California Fire Code
+Design Resources,Case Creation
+Design Resources,Design Guidelines
+Design Resources,Designer Action
+Design Resources,Designer Communication Required
+Design Resources,Florida Building Code (FBC)
+Design Resources,Full Building Design Requirements
+Design Resources,General Codes & Standards
+Design Resources,General Codes & Standards Requirement
+Design Resources,General Design Requirement
+Design Resources,Ground Mounts
+Design Resources,Historic District Design Requirement
+Design Resources,HOA Design Handout
+Design Resources,ICC - Orange Empire
+Design Resources,ICC 700 (National Green Building Standard)
+Design Resources,International Building Code (IBC)
+Design Resources,International Fire Code (IFC)
+Design Resources,International Green Construction Code (IGCC)
+Design Resources,International Residential Code (IRC)
+Design Resources,NYS Energy Code Supplement
+Design Resources,Oregon Structural Specialty Code (OSSC)
+Design Resources,OSISC
+Design Resources,Requirement Handout
+Design Resources,Roof Assessment At Install
+Design Resources,Roof Assessment Before Install
+Design Resources,SB 407 Enforced
+Design Resources,Solar Thermal Design
+Design Resources,Tankless Water Heater Design
+Design Resources,Test Maintenance Requirement
+Design Resources,test requirement june 19 2019
+Design Restrictions,ABB RSD Y-Connector Office Enabled
+Design Restrictions,Altadena Design Requirements
+Design Restrictions,Antelope Valley Design Requirements
+Design Restrictions,Arcadia Design Requirements
+Design Restrictions,Arcadia/San Gabriel Design Requirements
+Design Restrictions,Calabasas Design Requirements
+Design Restrictions,Carson Design Requirements
+Design Restrictions,Challenging AHJ – Avoid Material Changes
+Design Restrictions,City of LA General Requirements
+Design Restrictions,Commerce Design Requirements
+Design Restrictions,Complex AHJ Guidelines
+Design Restrictions,Design to other AHJ
+Design Restrictions,East Los Angeles Design Requirements
+Design Restrictions,Generic Permit Status
+Design Restrictions,Hawthorne Design Requirements
+Design Restrictions,kWh/kW Minimum
+Design Restrictions,kWh/kW Minimum (Rent)
+Design Restrictions,kWh/kW Minimum: CASH
+Design Restrictions,kWh/kW Minimum: Lease
+Design Restrictions,kWh/kW Minimum: LOAN
+Design Restrictions,kWh/kW Minimum: PPA
+Design Restrictions,LA County General Requirements
+Design Restrictions,La Puente Design Requirements
+Design Restrictions,Limited Consumption Formula
+Design Restrictions,Lomita Design Requirements
+Design Restrictions,OTC Design Requirements
+Design Restrictions,Palmdale Design Requirements
+Design Restrictions,Planset Creation (PV Only - Large)
+Design Restrictions,Planset Creation (PV Only - Small/Medium)
+Design Restrictions,Planset Creation Type
+Design Restrictions,Powerwall Fire Protection Required
+Design Restrictions,Restricted Interconnection Map
+Design Restrictions,Restricted to Regional Team
+Design Restrictions,San Gabriel Design Requirements
+Design Restrictions,Santa Clarita Design Requirements
+Design Restrictions,Santa Clarita/Castaic Design Requirements
+Design Restrictions,Seismic Zone
+Design Restrictions,South Whittier Design Requirements
+Design Restrictions,Southwest Design Requirements
+Design Restrictions,Standard Planset Limit (kW)
+Design Restrictions,Standard Planset Limit (PW Quantity)
+Design Restrictions,Storage Product Restrictions
+Design Restrictions,System Size Limit
+Design Restrictions,System Size Limit (Incentive)
+Design Restrictions,System Size Limit (Utility)
+Design Restrictions,System Size/Production (kWh) Cap
+Design Restrictions,TSRF (Total Solar Resource Fraction)
+Design Restrictions,West Hollywood Design Requirements
+Design Restrictions,Whittier Design Requirements
+Design Structural,Additional Calculations Required
+Design Structural,Digital Stamp Prohibited
+Design Structural,Generic Stamped Certification Letter Accepted (Electrical)
+Design Structural,Generic Stamped Certification Letter Accepted (Structural)
+Design Structural,Ground Snow Load (PSF)
+Design Structural,Ground Snow Load Lookup Required
+Design Structural,IEBC Analysis Prohibited
+Design Structural,NonStandard Construction
+Design Structural,Reducing Snow Load Prohibited
+Design Structural,Roof Live Load minimum (PSF)
+Design Structural,Show Structural Members
+Design Structural,Snow Load – Flat Roof Minimum (Pf)
+Design Structural,Snow Load – Slippery Surface Type Reductions Not Allowed
+Design Structural,Snow Load – Sloped Roof Minimum (Ps)
+Design Structural,Stamped Letter Required: Roof can Handle Additional Loads
+Design Structural,Structural Calculations Package ID
+Design Structural,Structural Re-Stamp Addendum Prohibited
+Design Structural,Structural Restamp Required For All Design Changes
+Design Structural,Structural Review Required Before Final Contract
+Design Structural,Structural Special Design Action
+Design Structural,Structural Stamp Required
+Design Structural,Wind Exposure Category
+Design Structural,Wind Load – Minimum Downward Pressure
+Design Structural,Wind Load – Minimum Uplift Pressure
+Design Structural,Wind Speed
+Generic Design Planset Requirements,Electrical: AC Disconnect
+Generic Design Planset Requirements,Electrical: AC System Size
+Generic Design Planset Requirements,Electrical: Grounding
+Generic Design Planset Requirements,Electrical: Main Breaker Rating
+Generic Design Planset Requirements,Electrical: Main Panel & Breaker Rating
+Generic Design Planset Requirements,Electrical: PV Meter
+Generic Design Planset Requirements,Electrical: Tie-In
+Generic Design Planset Requirements,Electrical: Tie-In Type
+Generic Design Planset Requirements,Generic Planset Test
+Generic Design Planset Requirements,Inspections
+Generic Design Planset Requirements,Jurisdiction Notes
+Generic Design Planset Requirements,Jurisdiction Notes: IBC Code
+Generic Design Planset Requirements,Jurisdiction Notes: IRC Code
+Generic Design Planset Requirements,Jurisdiction Notes: NEC Code
+Generic Design Planset Requirements,Planset: Additional Notes
+Generic Design Planset Requirements,Planset: Fill in Labels
+Generic Design Planset Requirements,Planset: Placard Required
+Generic Design Planset Requirements,Planset: Requirements
+Generic Design Planset Requirements,Planset: Utility Layout
+Generic Design Planset Requirements,Professional Engineering: Electrical Stamp
+Generic Design Planset Requirements,Professional Engineering: Structural Stamp
+Generic Design Planset Requirements,Site Plan Requirement
+Generic Design Planset Requirements,Site Plan: Conduit Run
+Generic Design Planset Requirements,Site Plan: Design Summary Table
+Generic Design Planset Requirements,Site Plan: Driveway
+Generic Design Planset Requirements,Site Plan: Equipment Location
+Generic Design Planset Requirements,Site Plan: Fire Setbacks
+Generic Design Planset Requirements,Site Plan: Front of Home
+Generic Design Planset Requirements,Site Plan: Home / Array Area & Percent
+Generic Design Planset Requirements,Site Plan: Ladder Access Points
+Generic Design Planset Requirements,Site Plan: Property Lines
+Generic Design Planset Requirements,Site Plan: Rafters
+Generic Design Planset Requirements,Site Plan: Required
+Generic Design Planset Requirements,Site Plan: Standoffs
+Generic Design Planset Requirements,Structural: Standoff Spacing / Design Summary Table
+Generic Design Planset Requirements,Structural: Structural Side Views
+SolarRoof Requirements,Site Plan Placard Requirements
