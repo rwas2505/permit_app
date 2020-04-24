@@ -1,0 +1,158 @@
+OfficeID,Name,LocationCode
+1,Berkeley,CA-BK
+2,Foster City,CA-FCW
+3,Fresno,CA-FR
+4,Hawthorne,CA-LA
+5,Sacramento,CA-SA
+6,San Diego,CA-SD
+8,Portland,OR-POR
+9,Phoenix,AZ-PHX
+10,HQ,HQ-SM
+11,Orange County,CA-OC
+13,Tucson,AZ-TUC
+15,Inland Empire,CA-IE
+16,Denver,CO-DV
+20,Deer Valley,AZ-NP
+21,Dallas,TX-DA
+22,Camarillo,CA-VT
+23,Thousand Palms,CA-PS
+24,Bakersfield,CA-BAK
+25,Toronto,ON-TO-COM
+26,Lancaster,CA-LC
+27,Mililani,HI-MI
+28,Hickam,HI-HI
+29,Parker,CO-PA
+30,Silver Spring,MD-DC
+31,Beltsville,MD-JE
+32,Raynham_Closed,MA-RA
+33,Albany,NY-AL
+34,Broomall,PA-BR
+35,Billerica,MA-BI
+36,Washington DC,HQ-DC
+38,Cranbury,NJ-CR
+39,Marlborough,MA-MA
+40,Temecula,CA-MU
+41,Prescott Valley,AZ-PV
+43,Westchester,NY-WC
+44,Hartford,CT-HT
+47,Phoenix Home Builders,AZ-HB
+50,El Paso,TX-EP
+51,Stockton,CA-ST
+53,San Juan,PR-SJ
+54,Long Island,NY-LI
+55,MCBH,HI-ML
+56,San Fernando Valley,CA-SV
+57,Salinas 2,CA-MH
+58,OMC Navy,HI-M2
+59,IPC Army,HI-M3
+61,West Valley,AZ-GD
+62,Clermont,MD-JE
+66,HQ Las Vegas,HQ-LV
+67,Chico,CA-CH
+68,San Luis Obispo,CA-SL
+69,Petaluma,CA-NB
+70,Washington DC WH,MD-JE
+75,Blackwood,NJ-BW
+76,Granite Bay,HQ-GB
+78,Kona,HI-KO
+80,Livermore,CA-LM
+82,Martinez,CA-MZ
+83,Victorville,CA-VV
+84,Seaford,DE-SF
+86,San Rafael,HQ-SR
+88,South Shore,MA-PE
+89,Baltimore,MD-BL
+90,Henderson,NV-HR
+91,Wilmington,MA-WL
+92,Waldorf,MD-WL
+93,South San Francisco,CA-FCW
+94,Springfield,MA-WE
+96,New Windsor,NY-NW
+97,Visalia,CA-VS
+98,Modesto,CA-MD
+99,North Las Vegas,NV-NV
+100,Atwater Village,CA-AT
+101,Clarksburg,MD-CL
+102,Mesa,AZ-ME
+103,Merced,CA-ME
+105,Salinas,CA-SN
+106,Gilbert,AZ-GI
+107,Bronx,NY-BX
+108,Rancho Cordova,CA-RC
+109,Milpitas,CA-MI
+110,Bethpage,NY-L2
+113,South Tucson,AZ-T2
+114,Vista,CA-ES
+115,Newark,DE-NW
+116,Camp Pendleton (CPQH),CA-SD
+117,Chula Vista,CA-FH
+118,Colonie,NY-CO
+119,Fall River,MA-FR
+121,Amsterdam,NY-AM
+122,Cape Cod,MA-SD
+123,Pine Brook,NJ-PB
+124,Egg Harbor,NJ-EH
+125,Leominster,MA-FB
+126,Goleta,CA-GL
+127,Albuquerque,NM-AQ
+128,Staten Island,NJ-CR
+129,Newport,RI-CV
+130,New London,CT-NL
+131,Mitchell Field,NY-L2
+132,Lakehurst,NJ-CR
+133,Reno,NV-RN
+136,Yuma,AZ-YM
+137,Saratoga Springs,NY-AM
+138,Norristown,PA-NT
+139,Manchester,NH-MN
+140,Salt Lake City,HQ-SLC
+141,Westborough,HQ-WB
+142,Rhode Island,RI-CV
+143,Fremont (SolarCity),HQ-FR
+144,Vacaville,CA-VA
+145,Annapolis,MD-AN
+150,East Coast 2,MD-JE
+151,Fort Worth,TX-FW
+152,HLSFO - Hellmann San Francisco,CA-HS
+153,Yuba City,CA-YC
+154,Norwalk,CA-NP
+155,Burlington,VT-BU
+156,Fort Detrick,MD-CL
+157,Baltimore MAD,MD-MAD
+158,HQ Mexico City,HQ-MC
+159,Buffalo,NY-BF
+160,Los Cabos,MX-LC
+161,Tlalpan,MX-PG
+162,Queens-Brooklyn,NY-L2
+163,Milford,CT-NH
+164,Walter Reed,MD-JE
+165,Fort Carson,CO-FC
+178,Kittery,NH-MN
+179,DUMBO,DUMBO-NY
+180,Monterey,CA-MH
+181,Philadelphia,PA-PL
+182,Buffalo (Silevo),BFNY-HQ17
+183,Richardson,TX-RN
+184,Tecnoparque - Call Center,MX-TECNO
+185,NCD,CA-NCD
+188,Chicago,IL
+190,Pittsburgh,PA-PT
+192,Charleston,SC-CH
+193,Sugarland,TX-SU
+194,Salt Lake City WH,UT-SLC
+195,Clermont WH,FL-CL
+196,Manheim,PA-LA
+197,Durango,HQ-CO
+198,Somerville,HQ-MA
+199,Fort Hamilton,NY-L2
+200,Austin WH,TX-AU
+201,Austin,HQ14-TX
+202,TecnoParque - Operations,HQ-TCC
+203,West Las Vegas,NV-VTC
+204,Vallejo,MX-VA
+205,Reno Sparks,NV-GG
+206,Orlando,FL-OW
+207,Carolina Calle Montebello,PR-CC
+208,Glenn 3PL,PR-PL
+230,Tampa,FL-TP-RESI
+234,Seattle-Temp,OR-POR
