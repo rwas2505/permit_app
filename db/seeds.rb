@@ -27,7 +27,7 @@ end
 
 # randomly select 10 ahjs from the above array of ~15000 ahjs and display their name and state
 state_array = []
-ahj_sample_list = ahj_list.sample(10)
+ahj_sample_list = ahj_list.sample(100)
 ahj_sample_list.each do |ahj|
   state_array << ahj["State"]
   # p " AHJ: #{ahj["AHJ"]} STATE: #{ahj["State"]} "
@@ -47,8 +47,8 @@ local_offices = office_list.select{|office| state_array.include?(office["Locatio
 # local_offices.each do |office|
 #    p "#{office["Name"]}, #{office["LocationCode"][0..1]}"
 # end
-# verification = local_offices.uniq{|office| office["LocationCode"][0..1]}
-# p verification
+# verification = local_offices.uniq{|office| office["LocationCode"][0..1]; office["LocationCode"][0..1]}
+# pp verification
 
 #create category and sub category list
 category_list = []
@@ -63,6 +63,9 @@ product_list = [
   "Powerwall", 
   "Flat Plate"
 ]
+
+# boolean_list
+boolean_list = [true, false]
 
 #level_reviewed
 level_reviewed = [
@@ -81,6 +84,21 @@ rejection_source = [
   "As Built Does Not Match Approved Plans"
 ]
 
+5.times do
+  ahj_object = ahj_sample_list.sample
+  ahj = ahj_object["AHJ"]
+  state = ahj_object["State"]
+  office_instances = local_offices.select{|office| state == office["LocationCode"][0..1]}
+  if office_instances == []
+    office = "Certified Installer"
+  else
+    office = office_instances.sample
+  end
+  p "ahj: #{ahj}"
+  p "state: #{state}"
+  p "office: #{office}"
+end
+
 
 
 # category (category_list)
@@ -97,8 +115,8 @@ rejection_source = [
 
 # corrections_uploaded (true or false, generate randomly)
 # note    ("")
-# case    (to do generate random number)
-# installation (generate random number)
+# case    (increment each time through loop, start with some arbitrary number)
+# installation (increment each time through loop, start with some arbitrary number)
 
 
 
