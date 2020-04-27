@@ -85,6 +85,12 @@ rejection_source = [
 ]
 
 5.times do
+  category_object = category_list.sample
+  category = category_object["category"]
+  sub_category = category_object["sub_category"]
+  product = product_list.sample
+  reviewed = level_reviewed.sample
+  source = rejection_source.sample
   ahj_object = ahj_sample_list.sample
   ahj = ahj_object["AHJ"]
   state = ahj_object["State"]
@@ -97,6 +103,11 @@ rejection_source = [
   p "ahj: #{ahj}"
   p "state: #{state}"
   p "office: #{office}"
+  p "category: #{category}"
+  p "sub_category: #{sub_category}"
+  p "product: #{product}"
+  p "level reviewed: #{reviewed}"
+  p "rejection source: #{source}"
 end
 
 
