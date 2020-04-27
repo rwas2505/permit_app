@@ -7,15 +7,16 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'csv'
 
-#generate a defined number of AHJ/State pairs
-
 ahj_csv_text = File.read(Rails.root.join('lib', 'seeds', 'all_ahjs.csv'))
 ahj_csv = CSV.parse(ahj_csv_text, :headers => true, :encoding => 'ISO-8859-1')
+
 office_csv_text = File.read(Rails.root.join('lib', 'seeds', 'all_offices.csv'))
 office_csv = CSV.parse(office_csv_text, :headers => true, :encoding => 'ISO-8859-1')
+
 category_csv_text = File.read(Rails.root.join('lib', 'seeds', 'categories.csv'))
 category_csv = CSV.parse(category_csv_text, :headers => true, :encoding => 'ISO-8859-1')
 
+#generate a defined number of AHJ/State pairs
 
 # make each row a hash element in a new array for the ahjs
 ahj_list = []
@@ -33,7 +34,6 @@ ahj_sample_list.each do |ahj|
 end
 
 #generate all offices that exist in the above states 
-
 office_list = []
 office_csv.each do |row|
   # p row["Name"]
@@ -42,15 +42,13 @@ office_csv.each do |row|
   office_list << office
 end
 
-#reduce array to only contain offices that exist in the states from the state_array
-
+#reduce office_list to only contain offices that exist in the states from the state_array
 local_offices = office_list.select{|office| state_array.include?(office["LocationCode"][0..1])}
 # local_offices.each do |office|
 #    p "#{office["Name"]}, #{office["LocationCode"][0..1]}"
 # end
 # verification = local_offices.uniq{|office| office["LocationCode"][0..1]}
 # p verification
-
 
 #create category and sub category list
 category_list = []
@@ -59,24 +57,48 @@ category_csv.each do |row|
   category_list << category
 end
 
+#product_list
+product_list = [
+  "Solar Roof", 
+  "Powerwall", 
+  "Flat Plate"
+]
 
+#level_reviewed
+level_reviewed = [
+  "When submitting, AHJ would NOT allow submittal", 
+  "Submitted successfully, received rejection", 
+  "Online submittal method required additional info that was not available",
+]
+
+rejection_source = [
+  "New AHJ Requirement",	
+  "Unique Requirement",	
+  "Unknown Source",	
+  "Incorrect AHJ Assigned",	
+  "Conditional AHJ Approval",	
+  "PIDM Review", 
+  "As Built Does Not Match Approved Plans"
+]
+
+
+
+# category (category_list)
+# sub_category (category_list)
+# product (product_list)
+# office  (local_offices)
+# state   (ahj_sample_list)
+# ahj     (ahj_sample_list)
+# level_reviewed (level_reviewed)
+# rejection_source (rejection_source)
 
 #TODO
 #generate seed data based on lists populated in this file
-#   -ahj_sample_list, local_offices, category_list
-# category (category_list)
-# sub_category (category_list)
-# product (to do)
-# office  (local_offices)
-# state   (ahj_sample_list i think)
-# ahj     (ahj_sample_list)
+
+# corrections_uploaded (true or false, generate randomly)
 # note    ("")
 # case    (to do generate random number)
 # installation (generate random number)
-# level_reviewed (to do)
-# rejection_source (to do)
-# corrections_uploaded (true or false, generate randomly)
-
 
 
 
