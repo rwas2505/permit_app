@@ -208,7 +208,7 @@ Design Restrictions,Arcadia Design Requirements
 Design Restrictions,Arcadia/San Gabriel Design Requirements
 Design Restrictions,Calabasas Design Requirements
 Design Restrictions,Carson Design Requirements
-Design Restrictions,Challenging AHJ – Avoid Material Changes
+Design Restrictions,Challenging AHJ Avoid Material Changes
 Design Restrictions,City of LA General Requirements
 Design Restrictions,Commerce Design Requirements
 Design Restrictions,Complex AHJ Guidelines
@@ -261,9 +261,9 @@ Design Structural,NonStandard Construction
 Design Structural,Reducing Snow Load Prohibited
 Design Structural,Roof Live Load minimum (PSF)
 Design Structural,Show Structural Members
-Design Structural,Snow Load – Flat Roof Minimum (Pf)
-Design Structural,Snow Load – Slippery Surface Type Reductions Not Allowed
-Design Structural,Snow Load – Sloped Roof Minimum (Ps)
+Design Structural,Snow Load Flat Roof Minimum (Pf)
+Design Structural,Snow Load Slippery Surface Type Reductions Not Allowed
+Design Structural,Snow Load Sloped Roof Minimum (Ps)
 Design Structural,Stamped Letter Required: Roof can Handle Additional Loads
 Design Structural,Structural Calculations Package ID
 Design Structural,Structural Re-Stamp Addendum Prohibited
@@ -272,8 +272,8 @@ Design Structural,Structural Review Required Before Final Contract
 Design Structural,Structural Special Design Action
 Design Structural,Structural Stamp Required
 Design Structural,Wind Exposure Category
-Design Structural,Wind Load – Minimum Downward Pressure
-Design Structural,Wind Load – Minimum Uplift Pressure
+Design Structural,Wind Load Minimum Downward Pressure
+Design Structural,Wind Load Minimum Uplift Pressure
 Design Structural,Wind Speed
 Generic Design Planset Requirements,Electrical: AC Disconnect
 Generic Design Planset Requirements,Electrical: AC System Size

@@ -10,7 +10,6 @@ class Api::RejectionsController < ApplicationController
       product: params[:product],
       office: params[:office],
       state: params[:state],
-      utility: params[:utility],
       ahj: params[:ahj],
       note: params[:note],
       case: params[:case],
