@@ -86,7 +86,7 @@ rejection_source = [
 
 
 
-5.times do
+500.times do 
   category_object = category_list.sample
   category = category_object["category"]
   sub_category = category_object["sub_category"]
@@ -107,6 +107,8 @@ rejection_source = [
   p "level reviewed: #{level_reviewed.sample}"
   p "rejection source: #{rejection_source.sample}"
   p "corrections uploaded: #{boolean_list.sample}"
+  p "note: none"
+  p "installation_id: #{rand(134888...999999)}" 
   p "*" * 20
 end
 
