@@ -27,7 +27,7 @@ class Api::RejectionsController < ApplicationController
 
   def show
     @rejection = Rejection.find_by(id: params[:id])
-    render "show.json.jb"f
+    render "show.json.jb"
   end
 
   def update
@@ -37,7 +37,6 @@ class Api::RejectionsController < ApplicationController
     @rejection.product = params[:product] || @rejection.product
     @rejection.office = params[:office] || @rejection.office
     @rejection.state = params[:state] || @rejection.state
-    @rejection.utility = params[:utility] || @rejection.utility
     @rejection.ahj = params[:ahj] || @rejection.ahj
     @rejection.note = params[:note] || @rejection.note
     @rejection.case = params[:case] || @rejection.case
@@ -45,7 +44,8 @@ class Api::RejectionsController < ApplicationController
     @rejection.level_reviewed = params[:level_reviewed] || @rejection.level_reviewed
     @rejection.rejection_source = params[:rejection_source] || @rejection.rejection_source
     @rejection.corrections_uploaded = params[:corrections_uploaded] || @rejection.corrections_uploaded
-    "show.json.jb" = params[:render "show.json.jb"] || @rejection.render "show.json.jb"
+    
+    render "show.json.jb"
   end
 
   def destroy
