@@ -1,0 +1,1 @@
+{message: "You deleted Rejection with the ID of #{@rejection.id}"}
