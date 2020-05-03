@@ -45,8 +45,11 @@ class Api::RejectionsController < ApplicationController
     @rejection.level_reviewed = params[:level_reviewed] || @rejection.level_reviewed
     @rejection.rejection_source = params[:rejection_source] || @rejection.rejection_source
     @rejection.corrections_uploaded = params[:corrections_uploaded] || @rejection.corrections_uploaded
-
-    render "show.json.jb"
+    if @rejection.save
+      render "show.json.jb"
+    else
+      render json: {errors: @rejection.errors.full_messages}, status: :bad_request
+    end
   end
 
   def destroy
