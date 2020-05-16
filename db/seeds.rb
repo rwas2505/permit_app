@@ -73,36 +73,35 @@ rejection_source = [
   "As Built Does Not Match Approved Plans"
 ]
 
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
-100.times do 
-  category_object = category_list.sample
-  category = category_object["category"]
-  sub_category = category_object["sub_category"]
-  ahj_object = ahj_sample_list.sample
-  state = ahj_object["State"]
-  office_instances = local_offices.select{|office| state == office["LocationCode"][0..1]}
-  if office_instances == []
-    office = "Certified Installer"
-  else
-    office = office_instances.sample["Name"]
-  end
 
-  Rejection.create(
-    category: category,
-    sub_category: sub_category,
-    product: product_list.sample,
-    office: office,
-    state: state,
-    ahj: ahj_object["AHJ"],
-    # note: Faker::Lorem.sentence(word_count: rand(5...25)),
-    note: Faker::TvShows::Friends.quote ,
-    installation: rand(134888...999999),
-    level_reviewed: level_reviewed.sample,
-    rejection_source: rejection_source.sample,
-    corrections_uploaded: boolean_list.sample
-  )
-end
+# 100.times do 
+#   category_object = category_list.sample
+#   category = category_object["category"]
+#   sub_category = category_object["sub_category"]
+#   ahj_object = ahj_sample_list.sample
+#   state = ahj_object["State"]
+#   office_instances = local_offices.select{|office| state == office["LocationCode"][0..1]}
+#   if office_instances == []
+#     office = "Certified Installer"
+#   else
+#     office = office_instances.sample["Name"]
+#   end
+
+#   Rejection.create(
+#     category: category,
+#     sub_category: sub_category,
+#     product: product_list.sample,
+#     office: office,
+#     state: state,
+#     ahj: ahj_object["AHJ"],
+#     # note: Faker::Lorem.sentence(word_count: rand(5...25)),
+#     note: Faker::TvShows::Friends.quote ,
+#     installation: rand(134888...999999),
+#     level_reviewed: level_reviewed.sample,
+#     rejection_source: rejection_source.sample,
+#     corrections_uploaded: boolean_list.sample
+#   )
+# end
   
 
 
