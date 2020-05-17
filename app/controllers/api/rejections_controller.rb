@@ -17,7 +17,8 @@ class Api::RejectionsController < ApplicationController
       installation: params[:installation],
       level_reviewed: params[:level_reviewed],
       rejection_source: params[:rejection_source],
-      corrections_uploaded: params[:corrections_uploaded]
+      corrections_uploaded: params[:corrections_uploaded],
+      uploads: params[:uploads]
     )
     if @rejection.save
       render "show.json.jb"
@@ -45,6 +46,7 @@ class Api::RejectionsController < ApplicationController
     @rejection.level_reviewed = params[:level_reviewed] || @rejection.level_reviewed
     @rejection.rejection_source = params[:rejection_source] || @rejection.rejection_source
     @rejection.corrections_uploaded = params[:corrections_uploaded] || @rejection.corrections_uploaded
+    @rejection.uploads = params[:uploads]
     if @rejection.save
       render "show.json.jb"
     else
@@ -58,4 +60,21 @@ class Api::RejectionsController < ApplicationController
     render "destroy.json.jb"
   end
 
+  def rejection_params
+    params.require(:rejection).permit(
+      :category,
+      :sub_category,
+      :product,
+      :office,
+      :state,
+      :ahj,
+      :note,
+      :case,
+      :installation,
+      :level_reviewed,
+      :rejection_source,
+      :corrections_uploaded,
+      uploads: []
+    )
+  end
 end

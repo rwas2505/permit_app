@@ -10,5 +10,6 @@
   note: @rejection.note,
   level_reviewed: @rejection.level_reviewed,
   rejection_source: @rejection.rejection_source,
-  corrections_uploaded: @rejection.corrections_uploaded
+  corrections_uploaded: @rejection.corrections_uploaded,
+  upload_url: "http://localhost:3000#{url_for(@rejection.uploads[0])}"
 }
