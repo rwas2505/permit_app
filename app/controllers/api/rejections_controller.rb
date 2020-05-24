@@ -17,7 +17,7 @@ class Api::RejectionsController < ApplicationController
       installation: params[:installation],
       level_reviewed: params[:level_reviewed],
       rejection_source: params[:rejection_source],
-      corrections_uploaded: params[:corrections_uploaded],
+      corrections_uploaded: true, #params[:corrections_uploaded],
       uploads: params[:uploads]
     )
     if @rejection.save
