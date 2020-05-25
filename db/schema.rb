@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_05_16_030809) do
+ActiveRecord::Schema.define(version: 2020_05_25_002634) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -36,21 +36,24 @@ ActiveRecord::Schema.define(version: 2020_05_16_030809) do
     t.index ["key"], name: "index_active_storage_blobs_on_key", unique: true
   end
 
-  create_table "rejections", force: :cascade do |t|
-    t.string "category"
-    t.string "sub_category"
-    t.string "product"
-    t.string "office"
+  create_table "jobs", force: :cascade do |t|
+    t.integer "installation_id"
+    t.integer "job_number"
     t.string "state"
     t.string "ahj"
-    t.string "note"
-    t.integer "case"
-    t.integer "installation"
+    t.string "office"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "rejections", force: :cascade do |t|
+    t.string "product"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "level_reviewed"
     t.string "rejection_source"
     t.boolean "corrections_uploaded"
+    t.integer "job_id"
   end
 
   create_table "users", force: :cascade do |t|
