@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
 #
@@ -5,10 +13,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
-
-######## Note, this is the originl seeds file to generate 500 rejections for app version 1.0 ########
-
 require 'csv'
 
 ahj_csv_text = File.read(Rails.root.join('lib', 'seeds', 'all_ahjs.csv'))
@@ -29,9 +33,9 @@ end
 
 # randomly select quantity of ahjs from the above array of ~15000 ahjs
 state_array = []
-ahj_sample_list = ahj_list.sample(50)
+ahj_sample_list = ahj_list.sample(100)
 ahj_sample_list.each do |ahj|
-state_array << ahj["State"]
+  state_array << ahj["State"]
 end
 
 #generate all offices that exist in the above states 
@@ -77,53 +81,42 @@ rejection_source = [
   "As Built Does Not Match Approved Plans"
 ]
 
-1.times do 
-  category_object = category_list.sample
-  category = category_object["category"]
-  sub_category = category_object["sub_category"]
-  ahj_object = ahj_sample_list.sample
-  state = ahj_object["State"]
-  office_instances = local_offices.select{|office| state == office["LocationCode"][0..1]}
-  if office_instances == []
-    office = "Certified Installer"
-  else
-    office = office_instances.sample["Name"]
-  end
+
+# 100.times do 
+#   category_object = category_list.sample
+#   category = category_object["category"]
+#   sub_category = category_object["sub_category"]
+#   ahj_object = ahj_sample_list.sample
+#   state = ahj_object["State"]
+#   office_instances = local_offices.select{|office| state == office["LocationCode"][0..1]}
+#   if office_instances == []
+#     office = "Certified Installer"
+#   else
+#     office = office_instances.sample["Name"]
+#   end
+
+#   Rejection.create(
+#     category: category,
+#     sub_category: sub_category,
+#     product: product_list.sample,
+#     office: office,
+#     state: state,
+#     ahj: ahj_object["AHJ"],
+#     # note: Faker::Lorem.sentence(word_count: rand(5...25)),
+#     note: Faker::TvShows::Friends.quote ,
+#     installation: rand(134888...999999),
+#     level_reviewed: level_reviewed.sample,
+#     rejection_source: rejection_source.sample,
+#     corrections_uploaded: boolean_list.sample
+#   )
+# end
   
-  job = Job.new(
-    installation_id: rand(134888...999999),
-    job_number: rand(134888...999999),
-    state: state,
-    ahj: ahj_object["AHJ"],
-    office: office
-  )
-  job.save
 
-  rejection = Rejection.new(
-    product: product_list.sample,
-    level_reviewed: level_reviewed.sample,
-    rejection_source: rejection_source.sample,
-    corrections_uploaded: boolean_list.sample,
-    job_id: job.id
-  ) 
-  rejection.save
 
-  cat = Category.new(
-    name: category,
-    rejection_id: rejection.id
-  )
-  cat.save
 
-  subcategory = Subcategory.new(
-    name: sub_category,
-    category_id: cat.id
-  )
-  subcategory.save
 
-  note = Note.new(
-    text: Faker::Lorem.sentence(word_count: 7) ,
-    subcategory_id: subcategory.id
-  )
-  note.save
-end
-  
+
+
+
+
+
