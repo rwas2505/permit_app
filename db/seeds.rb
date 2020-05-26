@@ -31,7 +31,7 @@ end
 state_array = []
 ahj_sample_list = ahj_list.sample(50)
 ahj_sample_list.each do |ahj|
-state_array << ahj["State"]
+  state_array << ahj["State"]
 end
 
 #generate all offices that exist in the above states 
@@ -77,7 +77,8 @@ rejection_source = [
   "As Built Does Not Match Approved Plans"
 ]
 
-1.times do 
+3.times do 
+  rejection_number = rand(1..2)
   category_object = category_list.sample
   category = category_object["category"]
   sub_category = category_object["sub_category"]
@@ -99,31 +100,60 @@ rejection_source = [
   )
   job.save
 
-  rejection = Rejection.new(
+  rejection1 = Rejection.new(
     product: product_list.sample,
     level_reviewed: level_reviewed.sample,
     rejection_source: rejection_source.sample,
     corrections_uploaded: boolean_list.sample,
     job_id: job.id
   ) 
-  rejection.save
-
-  cat = Category.new(
+  rejection1.save
+  
+  cat1 = Category.new(
     name: category,
-    rejection_id: rejection.id
+    rejection_id: rejection1.id
   )
-  cat.save
-
-  subcategory = Subcategory.new(
+  cat1.save
+  
+  subcategory1 = Subcategory.new(
     name: sub_category,
-    category_id: cat.id
+    category_id: cat1.id
   )
-  subcategory.save
-
-  note = Note.new(
+  subcategory1.save
+  
+  note1 = Note.new(
     text: Faker::Lorem.sentence(word_count: 7) ,
-    subcategory_id: subcategory.id
+    subcategory_id: subcategory1.id
   )
-  note.save
+  note1.save
+  
+  if rejection_number > 1
+    rejection2 = Rejection.new(
+      product: product_list.sample,
+      level_reviewed: level_reviewed.sample,
+      rejection_source: rejection_source.sample,
+      corrections_uploaded: boolean_list.sample,
+      job_id: job.id
+    ) 
+    rejection2.save
+    
+    cat2 = Category.new(
+      name: category,
+      rejection_id: rejection2.id
+    )
+    cat2.save
+    
+    subcategory2 = Subcategory.new(
+      name: sub_category,
+      category_id: cat2.id
+    )
+    subcategory2.save
+
+    note2 = Note.new(
+      text: Faker::Lorem.sentence(word_count: 7) ,
+      subcategory_id: subcategory2.id
+    )
+    note2.save
+  end
 end
   
