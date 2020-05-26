@@ -1,0 +1,4 @@
+{
+  message: "DESTROY PAGE",
+  action: "You have removed the job from the database"
+}

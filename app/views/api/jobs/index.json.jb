@@ -1,0 +1,11 @@
+@jobs.map do |job|
+  {
+    installation_id: job.installation_id,
+    job_number: job.job_number,
+    state: job.state,
+    ahj: job.ahj,
+    office: job.office,
+    rejections: job.rejections.count,
+    note: job.rejections[0].categories[0].subcategories[0].notes[0]
+  }
+end

@@ -1,0 +1,9 @@
+{
+  message: "WELCOME TO THE SHOW PAGE",  
+  id: @job.id,
+  installation_id: @job.installation_id,
+  job_number: @job.job_number,
+  state: @job.state,
+  ahj: @job.ahj,
+  office: @job.office
+}
