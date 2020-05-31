@@ -37,6 +37,12 @@ class Api::RejectionsController < ApplicationController
         @subcategories << subcategory
       end
     end
+    @notes = []
+    @subcategories.each do |subcategory|
+      subcategory.notes.each do |note|
+        @notes << note
+      end
+    end
     render "show.json.jb" 
   end
 

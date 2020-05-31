@@ -5,7 +5,7 @@
   rejection_source: @rejection.rejection_source,
   corrections_uploaded: @rejection.corrections_uploaded,
   job_id: @rejection.job_id,
-  # categories: @categories_all,
   categories: @categories,
-  subcategories: @subcategories
+  subcategories: @subcategories,
+  notes: @notes
 }
