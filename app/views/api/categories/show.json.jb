@@ -1,0 +1,6 @@
+{
+  id: @category.id,
+  name: @category.name,
+  rejection_id: @category.rejection_id,
+  sub_categories: @category.subcategories
+}

@@ -5,5 +5,7 @@
   job_number: @job.job_number,
   state: @job.state,
   ahj: @job.ahj,
-  office: @job.office
+  office: @job.office,
+  rejection_count: @job.rejections.count,
+  rejections: @job.rejections,
 }

@@ -29,7 +29,15 @@ class Api::RejectionsController < ApplicationController
 
   def show
     @rejection = Rejection.find_by(id: params[:id])
-    render "show.json.jb"
+    @categories_all = Category.all
+    @categories = Category.all.where(rejection_id:@rejection.id)
+    @subcategories = []
+    @categories.each do |category|
+      category.subcategories.each do |subcategory|
+        @subcategories << subcategory
+      end
+    end
+    render "show.json.jb" 
   end
 
   def update

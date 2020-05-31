@@ -1,17 +1,11 @@
 {
   id: @rejection.id,
-  installation: @rejection.installation,
-  category: @rejection.category,
-  sub_category: @rejection.sub_category,
   product: @rejection.product,
-  office: @rejection.office,
-  state: @rejection.state,
-  ahj: @rejection.ahj,
-  note: @rejection.note,
   level_reviewed: @rejection.level_reviewed,
   rejection_source: @rejection.rejection_source,
   corrections_uploaded: @rejection.corrections_uploaded,
-  upload_url: "http://localhost:3000#{url_for(@rejection.uploads[0])}",
-  upload_array: @rejection.uploads[0]
-  # pdf_url: url_for(@rejection.uploads[0])
+  job_id: @rejection.job_id,
+  # categories: @categories_all,
+  categories: @categories,
+  subcategories: @subcategories
 }
